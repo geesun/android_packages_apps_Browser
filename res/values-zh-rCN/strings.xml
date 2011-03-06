@@ -296,4 +296,58 @@
     <string name="website_settings_clear_all_dialog_ok_button" msgid="6401582240627669431">"删除所有数据"</string>
     <string name="website_settings_clear_all_dialog_cancel_button" msgid="1896757051856611674">"取消"</string>
     <string name="progress_dialog_setting_wallpaper" msgid="4871900779338536674">"正在设置壁纸..."</string>
+    <string name="pref_show_zoom_controls">显示可见缩放控制</string>
+    <string name="pref_full_screen_mode">全屏显示</string>
+    <string name="pref_content_invert_color">恢复窗口颜色</string>
+    <!-- Settings summary -->
+    <string name="pref_content_invert_color_summary">显示已恢复的页面颜色</string>
+
+    <!-- Geesun -->
+    <string name="bookmark_it">收藏上次查看的页面</string>
+
+       <string name="clear_bookmarks">清空收藏夹</string>
+    <string name="export_bookmarks">导出书签</string>
+    <string name="import_bookmarks">导入书签</string>
+    
+    <string name="fail_reason_too_many_bookmarks_backup">太多备份文件</string>    
+    
+    <string name="no_sdcard_title">无 SD 卡</string>    
+    
+    <string name="no_sdcard_message">找不到 SD 卡</string>
+    
+    <string name="confirm_export_title">导出书签到 SD 卡</string>
+    
+
+    <string name="confirm_export_message">您希望导出书签文件到 SD 卡 \<xliff:g id="vcard_filename">%s</xliff:g>\吗?</string> 
+    
+    <string name="exporting_bookmarks_failed_title">书签导出失败</string>
+     <string name="exporting_bookmarks_failed_message">导出书签失败\n出错原因是: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    
+    <string name="exporting_bookmarks_list_title">导出书签文件</string>
+    <string name="exporting_bookmarks_list_message">正在导出书签文件到 \"<xliff:g id="file_name">%s</xliff:g>\"</string> 
+   
+     <string name="searching_bookmark_title">正在搜索书签文件</string>
+   <string name="searching_bookmark_message">正在 SD 卡搜索书签文件</string>
+
+   <string name="scanning_sdcard_failed_title">扫描 SD 卡失败</string>
+   <string name="scanning_sdcard_failed_message">扫描 SD 卡失败</string>
+   <string name="fail_reason_io_error">I/O 出错</string>
+   <string name="fail_reason_no_bookmark_file">在您的 SD 卡处找不到书签文件</string>
+   <string name="select_bookmark_title">请选择书签文件</string>
+   <!-- Dialog title shown when reading VCard data -->
+   <string name="reading_bookmark_title">读取书签</string>
+
+   <!-- Dialog message shown when reading a VCard file -->
+   <string name="reading_bookmarks_message">正在读取书签</string>
+
+   <string name="write_bookmark_title">恢复书签</string>
+
+   <!-- Dialog message shown when reading a VCard file -->
+   <string name="write_bookmark_message">正在恢复书签到你的手机</string> 
+  
+   <string name="clear_bookmark_title">清空书签</string>
+   
+   <string name="clear_bookmark_message">您希望清空书签吗?</string>  
+   
+    <string name="clear_bookmark_success">清空所有书签成功</string> 
 </resources>

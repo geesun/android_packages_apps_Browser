@@ -54,6 +54,10 @@ import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+//Geesun
+import com.android.browser.backup.BookmarkExporter;
+import com.android.browser.backup.BookmarkImporter;
+
 /*package*/ enum BookmarkViewMode { NONE, GRID, LIST }
 /**
  *  View showing the user's bookmarks in the browser.
@@ -597,7 +601,29 @@ public class BrowserBookmarksPage extends Activity implements
         case R.id.new_context_menu_id:
             saveCurrentPage();
             break;
-
+                case R.id.export_context_menu_id:
+        	BookmarkExporter exportor = new BookmarkExporter(this);
+        	exportor.startExportBookmarkToSdCard();
+            break;
+        case R.id.import_context_menu_id:
+        	BookmarkImporter importer = new BookmarkImporter(this);
+        	importer.startImportBookmarkFromSdCard();
+            break;
+        case R.id.clear_context_menu_id:
+        	 new AlertDialog.Builder(this)
+             .setTitle(R.string.clear_bookmark_title)
+             .setMessage(R.string.clear_bookmark_message)
+             .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener(){
+				public void onClick(DialogInterface arg0, int arg1) {
+					// TODO Auto-generated method stub
+		        	String where =Browser.BookmarkColumns.BOOKMARK + " = 1";
+		            getContentResolver().delete(Browser.BOOKMARKS_URI, where, null);
+		            Toast.makeText(BrowserBookmarksPage.this, getString(R.string.clear_bookmark_success), Toast.LENGTH_LONG).show();
+				}            	 
+             })
+             .setNegativeButton(android.R.string.cancel, null)
+             .show();
+            break;
         case R.id.switch_mode_menu_id:
             if (mViewMode == BookmarkViewMode.GRID) {
                 switchViewMode(BookmarkViewMode.LIST);

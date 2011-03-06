@@ -676,34 +676,35 @@
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
+        <item>机锋网</item>
+        <item>http://bbs.gfan.com</item>
         <item>Google</item>
-        <item>http://www.google.com/</item>
-        <item>Picasa</item>
-        <item>http://picasaweb.google.com/m/viewer?source=androidclient</item>
-        <item>Yahoo!</item>
-        <item>http://www.yahoo.com/</item>
-        <item>MSN</item>
-        <item>http://www.msn.com/</item>
-        <item>MySpace</item>
-        <item>http://www.myspace.com/</item>
-        <item>Facebook</item>
-        <item>http://www.facebook.com/</item>
-        <item>Wikipedia</item>
-        <item>http://www.wikipedia.org/</item>
-        <item>eBay</item>
-        <item>http://www.ebay.com/</item>
-        <item>CNN</item>
-        <item>http://www.cnn.com/</item>
-        <item>NY Times</item>
-        <item>http://www.nytimes.com/</item>
-        <item>ESPN</item>
-        <item>http://espn.com/</item>
-        <item>Amazon</item>
-        <item>http://www.amazon.com/</item>
-        <item>Weather Channel</item>
-        <item>http://www.weather.com/</item>
-        <item>BBC</item>
-        <item>http://www.bbc.co.uk/</item>
+        <item>http://www.google.com</item>
+        <item>G科技</item>
+        <item>http://www.GFAN.com/</item>
+        <item>Google阅读器</item>
+        <item>http://www.google.com/reader</item>
+        <item>新浪</item>
+        <item>http://www.sina.com.cn</item>
+        <item>开心网</item>
+        <item>wap.kaixin001.com</item>
+        <item>京东商城</item>
+        <item>http://www.360buy.com</item>
+        <item>人人</item>
+        <item>m.renren.com</item>
+        <item>淘宝网</item>
+        <item>http://www.taobao.com</item>
+        <item>优酷网</item>
+        <item>http://www.youku.com/</item>
+        <item>土豆网</item>
+        <item>http://www.tudou.com/</item>
+        <item>顺丰速运</item>
+        <item>http://www.sf-express.com/</item>
+        <item>NBA中文官方站</item>
+        <item>http://china.nba.com/</item>
+        <item>嫣牛博－没有政治内容的牛博</item>
+        <item>http://www.bullock.cn/</item>
+
     </string-array>
 
     <!-- Bookmark name for Picasa website -->
@@ -769,4 +770,55 @@
     <string name="incog_tab">Enable Incognito Mode</string>
     <string name="dis_incog_tab">Disable Incognito Mode</string>
     <string name="pref_select_user_agent">Select User Agent</string>
+    <!-- Geesun -->
+    <string name="bookmark_it">Bookmark last-viewed page</string>
+
+       <string name="clear_bookmarks">Clear Bookmarks</string>
+    <string name="export_bookmarks">Export Bookmarks</string>
+    <string name="import_bookmarks">Import Bookmarks</string>
+    
+    <string name="fail_reason_too_many_bookmarks_backup">Too many Backup files</string>    
+    
+    <string name="no_sdcard_title">No SD Card</string>    
+    
+    <string name="no_sdcard_message">No SD Card not found</string>
+    
+    <string name="confirm_export_title">Export Bookmarks to SD Card</string>
+    
+    <string name="confirm_export_message">"Is it ok to export your bookmarks list to \"<xliff:g id="vcard_filename">%s</xliff:g>\"? "</string>
+    
+
+    <string name="exporting_bookmarks_failed_title">Bookmarks Exporter Failed</string>
+    <string name="exporting_bookmarks_failed_message">Exporting bookmarks data has failed\nReason for failure: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    
+    <string name="exporting_bookmarks_list_title">Exporting bookmarks data</string>
+    <string name="exporting_bookmarks_list_message">Exporting bookmarks data to \"<xliff:g id="file_name">%s</xliff:g>\"</string>
+   
+   
+     <string name="searching_bookmark_title">Searching for Bookmarks</string>
+   <string name="searching_bookmark_message">Searching for Bookmarks data on SD Card</string>
+
+   <string name="scanning_sdcard_failed_title">Scanning SD Card failed</string>
+   <string name="scanning_sdcard_failed_message">Scanning SD Card failed</string>
+   <string name="fail_reason_io_error">I/O Error</string>
+   <string name="fail_reason_no_bookmark_file">No Bookmarks file found on SD Card</string>
+   <string name="select_bookmark_title">Select Bookmarks file</string>
+   <!-- Dialog title shown when reading VCard data -->
+   <string name="reading_bookmark_title">Reading Bookmarks</string>
+
+   <!-- Dialog message shown when reading a VCard file -->
+   <string name="reading_bookmarks_message">Reading and Parser Bookmarks file</string>
+
+   <string name="write_bookmark_title">Restoring Bookmarks</string>
+
+   <!-- Dialog message shown when reading a VCard file -->
+   <string name="write_bookmark_message">Restoring Bookmarks to your Phone</string> 
+  
+   <string name="clear_bookmark_title">Clear Bookmark</string>
+   
+   <string name="clear_bookmark_message">Do you want Clear Bookmarks?</string>  
+   
+    <string name="clear_bookmark_success">Clear all bookmarks successfully</string>  
+
+
 </resources>
