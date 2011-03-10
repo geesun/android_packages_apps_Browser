@@ -300,9 +300,6 @@
     <string name="progress_dialog_setting_wallpaper" msgid="4871900779338536674">"正在设置壁纸..."</string>
     <string name="pref_show_zoom_controls">显示可见缩放控制</string>
     <string name="pref_full_screen_mode">全屏显示</string>
-    <string name="pref_content_invert_color">恢复窗口颜色</string>
-    <!-- Settings summary -->
-    <string name="pref_content_invert_color_summary">显示已恢复的页面颜色</string>
 
     <!-- Geesun -->
     <string name="bookmark_it">收藏上次查看的页面</string>
