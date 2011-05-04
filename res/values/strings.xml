@@ -676,12 +676,12 @@
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
-        <item>机锋网</item>
-        <item>http://bbs.gfan.com</item>
+    	<item>沃达网</item>
+   	<item>http://www.opda.com.cn</item>
+   	<item>沃达网资讯</item>
+    	<item>http://www.opda.cn</item>
         <item>Google</item>
         <item>http://www.google.com</item>
-        <item>G科技</item>
-        <item>http://www.GFAN.com/</item>
         <item>Google阅读器</item>
         <item>http://www.google.com/reader</item>
         <item>新浪</item>
