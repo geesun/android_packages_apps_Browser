@@ -36,7 +36,7 @@ public class BookmarkExporter {
     private final int mFileIndexMaximum = 100;
 
     private final String mFileNameExtension = "bkm";
-    private final String mFileNamePrefix = "androidin_";
+    private final String mFileNamePrefix = "opda_";
     private final String mFileNameSuffix = "";
     private final String mTargetDirectory = "/sdcard";	
 
