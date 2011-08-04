@@ -821,4 +821,7 @@
     <string name="clear_bookmark_success">Clear all bookmarks successfully</string>  
 
 
+
+    <!-- Access point for RLZ tracking. -->
+    <string name="rlz_access_point" translatable="false">Y1</string>
 </resources>
